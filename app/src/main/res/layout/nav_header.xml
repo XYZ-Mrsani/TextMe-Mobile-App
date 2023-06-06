@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary_background_purple">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profilepic"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/profilepic"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_name_nav"
+        android:paddingTop="5dp"
+        android:textSize="25sp"
+        android:text="Ruwana"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@id/profilepic"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+
+    <TextView
+        android:id="@+id/user_desc_nav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="I'm Busy right now"
+        android:layout_below="@id/user_name_nav"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/user_desc_nav"
+            android:layout_marginTop="15dp"
+            android:background="@color/primary_btn_purple"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            />
+
+</LinearLayout>
